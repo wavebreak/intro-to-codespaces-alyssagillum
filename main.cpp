@@ -1,7 +1,9 @@
-#include <iostream>
-using namespace std;
+#include "Student.hpp"
 
-int main() {
-    cout << "Hello, Codespaces!" << endl;
-    return 0;
+boid Student::setGPA(double gpa){
+    this->gpa =gpa
+}
+
+double Student::getGPA(){
+    return gpa;
 }
